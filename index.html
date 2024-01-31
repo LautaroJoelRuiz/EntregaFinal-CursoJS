@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="fondo">
+    
+    <header id="saludo"></header>
+    <h2 id = "ofrecer" > ofrecer </h2>
+    <div class ="productos" id="productos"></div>
+    <h4 id="boton"> 
+        <button class="boton">Porcentaje de alcohol</button>
+    </h4>
+    <div class="carrito" id="carrito"></div>
+    
+    <div class="contenedorcarrito">
+        <div class="carrito" id="carritoentero">
+            <h2 >Carrito de compras</h2>
+            <img src="img/carritoicono.svg" alt="" class="carritoicono">
+            
+            <div class="contadorproductos">
+                <span id="cuentaproductos">0</span>
+            </div>
+            <div class="contenedor-productoscarrito" id="contenedorproductoscarrito">
+                <div class="carritoproductos" id="carritoproductos">
+                    <div class="informacionproducto">
+                    <span class="cantidadproductocarrito"></span>
+                    <p class="tituloprocuctocarrito"></p>
+                    <span class="precioproductocarrito"></span>
+                    <img src="img/cerrar.svg" alt="cerrar" class="cerraricono">
+                </div>
+            </div>
+                
+            <div class="totalcarrito">
+                <h3>Total:</h3>
+                <span class="total-pagar"></span>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/simulacion-base-de-datos.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/carrito.js"></script>
+</body>
+</html>

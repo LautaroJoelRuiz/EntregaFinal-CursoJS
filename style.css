@@ -1,0 +1,177 @@
+* {
+    margin: 0px;
+    padding: 10px;
+    box-sizing: border-box;
+    
+}
+
+
+header{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+    background-attachment: fixed;
+}
+
+.carritoicono{
+    display: flex;
+    width: 70px;
+    border-radius: 0px;
+    margin-left: 1%;
+    cursor: pointer;
+
+}
+
+.carrito{
+    position: relative;
+    margin-left: 25%;
+}
+
+.contadorproductos{
+    position: absolute;
+    top: 55%;
+    left: 0;
+    
+    background-color: black;
+    color: white;
+    width: 25px;
+    height: 25px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.contenedor-productoscarrito{
+    position: absolute;
+    left: 30px;
+    color: black;
+    background-color: #fff;
+    width: 600px;
+    z-index: 1;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
+    border-radius: 10px;
+    
+}
+
+.totalcarrito{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.total-pagar{
+    font-weight: 700;
+}
+
+.carritoproducto{
+    display: flex;
+    align-items: center;
+}
+
+.informacionproducto{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between; 
+}
+
+
+.tituloprocuctocarrito{
+    margin-left: 20px;
+}
+
+.precioproductocarrito{
+    font-weight: 700;
+    margin-left: 30px;
+}
+
+.cantidadproductocarrito{
+    font-weight: 400px;
+}
+
+.cerraricono{
+    display: flex;
+    width: 40px; 
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.foto-bebida{
+    display: block;
+    margin-inline: auto;
+    width: 50%;
+    position: center center;
+    border-radius: 100px;
+    box-shadow: 0 0 20 rgba(0, 0, 0, 0.10);
+}
+
+body{
+    font-family: sans-serif;
+    color: white;
+}
+
+.boton{
+    
+    background-color: white;
+    padding: 10px;
+    width: 100%;
+    border-radius: 30px;
+    cursor: pointer;
+    
+
+}
+
+
+.boton-comprar{
+    color: white;
+    background-color: rgb(29, 51, 51);
+    cursor: pointer;
+    width: 100%;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+#ofrecer{
+    
+    display: flex;
+    justify-content: center;
+}
+
+.identificacion{
+    display: flex;
+    justify-content: center;
+}
+
+.nombrebebida{
+    
+    display: flex;
+    justify-content: center;
+}
+
+.precio{
+    
+    display: flex;
+    justify-content: center;
+}
+
+.marca{
+    
+    display: flex;
+    justify-content: center;
+}
+
+
+#fondo{
+    background-image: url(img/bar.jpg);
+    background-repeat: no-repeat;
+    width: 1300px;
+    height: 4300px;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover
+}
+
+
+
